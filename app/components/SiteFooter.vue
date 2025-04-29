@@ -26,7 +26,6 @@
         <n-text depth="3" @click="jumpLink('https://uptimerobot.com/')">
           {{ $t("uptimeRobot") }}
         </n-text>
-        {{ $t("footer.interface") }} |
         {{ $t("footer.checkFrequency") }}
         {{ $t("footer.fiveMinutes") }}
       </n-p>
