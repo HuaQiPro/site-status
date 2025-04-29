@@ -58,7 +58,7 @@ export const formatSiteData = (
     return {
       id: site.id,
       name: site?.friendly_name || "未命名站点",
-      url: '#',
+      url: undefined,
       status: site?.status ?? 8,
       type: site?.type ?? 1,
       interval: site?.interval ?? 0,
